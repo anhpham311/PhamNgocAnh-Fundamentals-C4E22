@@ -1,9 +1,8 @@
-# change type from string to int
-n = int("Hello")
+print("Hello",end=" ")
+print(",my name",end=" ")
+print("is B-max",end=" ")
 
-# use for loop in range
-for i in range(n):
-    print(i,end=',')
+print()
 
 
 

@@ -13,9 +13,16 @@ annie.forward(100)
 annie.right(120)
 annie.forward(100)
 
-annie.left(130)
+annie.left(132)
+for i in range(4):
+    annie.forward(100)
+    annie.left(72)
+
+annie.color("red")
 annie.forward(100)
-annie.left(115)
-annie.forward(100)
+
+for i in range(5):
+    annie.left(60)
+    annie.forward(100)
 
 turtle.done()
